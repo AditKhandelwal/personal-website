@@ -33,6 +33,10 @@ nav {
   flex-wrap: wrap;
 }
 
+ul {
+  padding-left: 10px;
+}
+
 .logo {
   /* width: 20%; */
   font-weight: 900;
@@ -51,6 +55,7 @@ nav ul li {
   list-style: none;
   margin: 10px 20px;
 }
+
 
 nav ul li a {
   color: white;
@@ -152,6 +157,11 @@ nav ul li a:hover::after {
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
+}
+
+/* Bullet Points for Experience */
+.tab-contents ul li ul li {
+  list-style-type: circle;
 }
 
 .tab-contents ul li span {
